@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.postcodes.io/postcodes/BR13UH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - postcode_checker_request
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 02 Aug 2021 00:13:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"343-acc2EgAWLXrofLkjtKmKVXNCRzg"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '294566'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6nRl1Q5vfQX9LOsi8WzoGTnkp64HtjZ8DCjm3LHxuma%2FB8I%2F%2BbwyVMz7j35mgHTIAe%2Fq6hLWpkENWdKl%2BmGkhubfPojPIU%2FdFdXmx1x1IS1J8MzRK87akM7MZplx1yHBL9w%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 678319a4e8b3e58f-MAN
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":200,"result":{"postcode":"BR1 3UH","quality":1,"eastings":540629,"northings":169142,"country":"England","nhs_ha":"London","longitude":0.020377,"latitude":51.403879,"european_electoral_region":"London","primary_care_trust":"Bromley","region":"London","lsoa":"Bromley
+        018B","msoa":"Bromley 018","incode":"3UH","outcode":"BR1","parliamentary_constituency":"Bromley
+        and Chislehurst","admin_district":"Bromley","parish":"Bromley, unparished
+        area","admin_county":null,"admin_ward":"Bromley Town","ced":null,"ccg":"NHS
+        South East London","nuts":"Bromley","codes":{"admin_district":"E09000006","admin_county":"E99999999","admin_ward":"E05000109","parish":"E43000196","parliamentary_constituency":"E14000604","ccg":"E38000244","ccg_id":"72Q","ced":"E99999999","nuts":"TLI61","lsoa":"E01000675","msoa":"E02000144","lau2":"E09000006"}}}'
+  recorded_at: Mon, 02 Aug 2021 00:13:24 GMT
+recorded_with: VCR 6.0.0

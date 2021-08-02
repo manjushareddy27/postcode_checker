@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.postcodes.io/postcodes/SE17QD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - postcode_checker_request
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 02 Aug 2021 00:13:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"361-L7VrDXW3HuMgFqM+YjyYpD8TP5I"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '9832'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aOzVFgNvi%2BS4P9rFw6gdp0SGMuDyLtfICNeItWyyFeuV9uKprj0%2Ftcvs6BLQ4D0KCVkzApQ4q5f7yONgHROOXr74cm58iiAW228kua34hrM2hscRYwocaDu75LVgKRG%2BwOE%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"report_to":"cf-nel","max_age":604800}'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 678319a2dddf54a0-MAN
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":200,"result":{"postcode":"SE1 7QD","quality":1,"eastings":531513,"northings":179395,"country":"England","nhs_ha":"London","longitude":-0.106793,"latitude":51.498204,"european_electoral_region":"London","primary_care_trust":"Southwark","region":"London","lsoa":"Southwark
+        034A","msoa":"Southwark 034","incode":"7QD","outcode":"SE1","parliamentary_constituency":"Bermondsey
+        and Old Southwark","admin_district":"Southwark","parish":"Southwark, unparished
+        area","admin_county":null,"admin_ward":"St George''s","ced":null,"ccg":"NHS
+        South East London","nuts":"Lewisham and Southwark","codes":{"admin_district":"E09000028","admin_county":"E99999999","admin_ward":"E05011114","parish":"E43000218","parliamentary_constituency":"E14000553","ccg":"E38000244","ccg_id":"72Q","ced":"E99999999","nuts":"TLI44","lsoa":"E01003930","msoa":"E02006802","lau2":"E09000028"}}}'
+  recorded_at: Mon, 02 Aug 2021 00:13:24 GMT
+recorded_with: VCR 6.0.0
