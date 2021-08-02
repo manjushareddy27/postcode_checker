@@ -43,7 +43,7 @@ Run the script by using below command
 
 Open a web page using below URL
 
-'https://server_IP/9292'  (server_IP: your local ip address)
+```'https://server_IP/9292'  (server_IP: your local ip address)```
 
 You can enter your postcode on search field and click on validate button on web page to check whether the postcode within service area.
 
